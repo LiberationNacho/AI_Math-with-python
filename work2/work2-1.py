@@ -46,7 +46,6 @@ def Gauss_Jordan_Method(A):
 
     return sol_x
 
-
 print("문제 (a)\n")
 A = np.array([[1, 2, -1], [2, 3, -1], [3, -2, 3]])
 b = np.array([[6, 8, -4]])
