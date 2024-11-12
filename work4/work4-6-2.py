@@ -1,5 +1,5 @@
 import numpy as np
-# [프로그래밍 실습 6.1]의 LU 분해 함수
+
 def LU_decomp(A):
     (n,m) = A.shape
     L = np.zeros((n,n)) # 빈 행렬 L 만들기
