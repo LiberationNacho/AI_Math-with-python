@@ -36,8 +36,8 @@ print("(a) AA^T의 고유값:", eigenvalues_A_a_AT)
 
 # (b) A 행렬
 A_b = np.array([
-    [3, 0],
-    [2, 0]
+    [3, 0, 2],
+    [2, 0, 0]
 ])
 
 # (b) A^T A와 AA^T 계산
